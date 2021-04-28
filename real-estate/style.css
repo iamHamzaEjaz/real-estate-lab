@@ -1,0 +1,111 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #c03b3b;
+    background-color: #e6cc96;
+    
+    
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif; 
+  }
+  .testimonials-text{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .testimonials-inner > h4, .col-12 > .testimonials-inner > .testimonials-text {
+    color: #5E7E85;
+    text-align: center;
+}
+@media only screen and (max-width: 786px) {
+    .products_row{
+        text-align: center;
+        margin-left: -50px;
+    }  
+}
+  #footer .footer-top {
+    background:black;
+    padding: 60px 0 30px 0;
+  } 
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+  }
+  #footer .footer-top .footer-info h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+  #footer .footer-top .footer-info p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  .contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
+    padding: 20px 0 30px 0;
+  }
+  .lineNumber{
+    display: inline;
+    background: rgb(111, 111, 250);
+    color: white;
+    border: 1.5px solid black;
+    padding: 0px 6px;
+    margin-right: 2px;
+}
+.heading{
+  font-size: 2.0rem;
+}
+.subHeading i{
+  font-size: 13px;
+  color: #b9b9b9;
+  margin-right: 4px;
+}
+.subHeading span{
+  font-size: 13px;
+    color: #b9b9b9;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.headingLeft{
+  font-size: 27px;
+  
+}
+.testimonials-inner{
+  
+  
+    background-color: #e6e8e7 !important;
+    margin-bottom: 16px;
+    margin-bottom: 30px;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 16px !important;
+    box-shadow: 0 16px 48px 0 rgb(26 39 81 / 10%);
+
+
+}
+.box {
+  box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 14%);
+  width: 175px;
+  display: inline;
+}
+.box:hover {
+  
+  box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 50%);
+  transition: .5s all ease;
+}
+.products_row{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
